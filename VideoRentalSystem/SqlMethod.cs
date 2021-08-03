@@ -7,7 +7,7 @@ namespace VideoRentalSystem
 {
     public class SqlMethod
     {
-        private static SqlConnection myCon = new SqlConnection("Data Source=DESKTOP-LTQK306;Initial Catalog=NewVideoDB;Integrated Security=True");
+        private static SqlConnection myCon = new SqlConnection("Data Source=DESKTOP-LTQK306;Initial Catalog=VideoRentalDB;Integrated Security=True");
         static SqlCommand myCmd;
         public static void GetCustomer(DataGridView gv)
         {
